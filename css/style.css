@@ -127,7 +127,7 @@ h2 { font-size: 38px; }
 h3 { font-size: 28px; }
 h4 { font-size: 22px; }
 h5 { font-size: 18px; }
-h6 { font-size: 14px; text-transform: uppercase; color: var(--primary-accent); font-weight: 600; letter-spacing: 1px; }
+h6 { font-size: 16px; text-transform: uppercase; color: var(--primary-accent); font-weight: 600; letter-spacing: 1px; }
 
 p { margin-bottom: 1rem; }
 
@@ -146,7 +146,7 @@ p { margin-bottom: 1rem; }
     gap: 8px;
     padding: 14px 28px;
     font-family: var(--font-heading);
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 600;
     border-radius: var(--radius-sm);
     border: none;
@@ -182,6 +182,18 @@ p { margin-bottom: 1rem; }
 
 .btn-white:hover {
     background: var(--bg-light);
+}
+
+/* Call Now Button - Green */
+.btn-call {
+    background: #16A34A;
+    color: #FFFFFF;
+    border: none;
+}
+
+.btn-call:hover {
+    background: #15803D;
+    color: #FFFFFF;
 }
 
 /* ===== Header ===== */
@@ -238,7 +250,7 @@ p { margin-bottom: 1rem; }
 .nav-menu > a,
 .nav-menu > .dropdown > .dropdown-toggle {
     font-family: var(--font-heading);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     color: var(--text-dark);
     position: relative;
@@ -291,7 +303,7 @@ p { margin-bottom: 1rem; }
 .dropdown-menu a {
     display: block;
     padding: 10px 20px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .header-actions {
@@ -400,7 +412,7 @@ p { margin-bottom: 1rem; }
 /* ===== Breadcrumb ===== */
 .breadcrumb {
     padding: 1rem 0;
-    font-size: 14px;
+    font-size: 16px;
     color: var(--text-gray);
 }
 
@@ -531,7 +543,7 @@ p { margin-bottom: 1rem; }
 }
 
 .service-card p {
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 1.25rem;
 }
 
@@ -561,7 +573,7 @@ p { margin-bottom: 1rem; }
 }
 
 .feature-content p {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 0;
 }
 
@@ -581,7 +593,7 @@ p { margin-bottom: 1rem; }
 
 .info-box p {
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 /* ===== Model Grid ===== */
@@ -606,12 +618,12 @@ p { margin-bottom: 1rem; }
 }
 
 .model-card h5 {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 0.25rem;
 }
 
 .model-card span {
-    font-size: 12px;
+    font-size: 16px;
     color: var(--text-gray);
 }
 
@@ -628,7 +640,7 @@ p { margin-bottom: 1rem; }
     background: var(--bg-white);
     border: 1px solid var(--border-light);
     border-radius: var(--radius-sm);
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     transition: all 0.3s ease;
 }
@@ -721,7 +733,7 @@ p { margin-bottom: 1rem; }
     display: block;
     margin-bottom: 0.5rem;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     color: var(--text-dark);
 }
 
@@ -731,7 +743,7 @@ p { margin-bottom: 1rem; }
     border: 1px solid var(--border-light);
     border-radius: var(--radius-sm);
     font-family: var(--font-body);
-    font-size: 15px;
+    font-size: 16px;
     transition: border-color 0.3s;
 }
 
@@ -765,7 +777,7 @@ textarea.form-control {
 }
 
 .form-check label {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5;
 }
 
@@ -801,7 +813,7 @@ textarea.form-control {
 
 .contact-item p {
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* ===== Pricing Table ===== */
@@ -822,11 +834,11 @@ textarea.form-control {
     background: var(--bg-light);
     font-weight: 600;
     color: var(--text-dark);
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .pricing-table td {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .pricing-table tr:hover td {
@@ -847,7 +859,7 @@ textarea.form-control {
 
 .footer-brand p {
     color: rgba(255,255,255,0.6);
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 1rem;
     line-height: 1.7;
 }
@@ -862,7 +874,7 @@ textarea.form-control {
     display: block;
     color: rgba(255,255,255,0.6);
     padding: 6px 0;
-    font-size: 14px;
+    font-size: 16px;
     transition: color 0.3s;
 }
 
@@ -878,7 +890,7 @@ textarea.form-control {
     margin-top: 3rem;
     border-top: 1px solid rgba(255,255,255,0.1);
     color: rgba(255,255,255,0.5);
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .footer-bottom a {
@@ -924,7 +936,7 @@ textarea.form-control {
 .sidebar-links a {
     display: block;
     padding: 8px 0;
-    font-size: 14px;
+    font-size: 16px;
     color: var(--text-gray);
     border-bottom: 1px solid var(--border-light);
 }
@@ -976,12 +988,12 @@ textarea.form-control {
     
     .nav-menu > a,
     .nav-menu > .dropdown > .dropdown-toggle {
-        font-size: 13px;
+        font-size: 16px;
     }
     
     .header-actions .btn {
         padding: 10px 16px;
-        font-size: 13px;
+        font-size: 16px;
     }
 }
 
