@@ -551,6 +551,186 @@
       "notes": "Final 17 inch MacBook Pro. LCD replacement available on eligible units."
     },
     {
+      "marketing_name": "MacBook Pro 17-inch 2010",
+      "slug": "macbook-pro-17-2010",
+      "model_identifier": "A1297",
+      "year_range": "2010",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "17.0",
+      "notes": "17 inch MacBook Pro with i5/i7. LCD replacement available."
+    },
+    {
+      "marketing_name": "MacBook Pro 17-inch 2009",
+      "slug": "macbook-pro-17-2009",
+      "model_identifier": "A1297",
+      "year_range": "2009",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "17.0",
+      "notes": "First unibody 17 inch MacBook Pro. LCD replacement supported."
+    },
+    {
+      "marketing_name": "MacBook Pro 15-inch Unibody 2011",
+      "slug": "macbook-pro-15-2011-unibody",
+      "model_identifier": "A1286",
+      "year_range": "2011",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "15.4",
+      "notes": "Unibody MacBook Pro 15 inch with Sandy Bridge CPU. LCD replacement available."
+    },
+    {
+      "marketing_name": "MacBook Pro 15-inch Unibody 2010",
+      "slug": "macbook-pro-15-2010-unibody",
+      "model_identifier": "A1286",
+      "year_range": "2010",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "15.4",
+      "notes": "Unibody MacBook Pro 15 inch with Arrandale CPU. LCD replacement supported."
+    },
+    {
+      "marketing_name": "MacBook Pro 15-inch Unibody 2009",
+      "slug": "macbook-pro-15-2009-unibody",
+      "model_identifier": "A1286",
+      "year_range": "2009",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "15.4",
+      "notes": "Unibody MacBook Pro 15 inch. LCD replacement available on eligible units."
+    },
+    {
+      "marketing_name": "MacBook Pro 15-inch Unibody 2008",
+      "slug": "macbook-pro-15-2008-unibody",
+      "model_identifier": "A1286",
+      "year_range": "2008",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "15.4",
+      "notes": "First unibody MacBook Pro 15 inch. LCD replacement supported."
+    },
+    {
+      "marketing_name": "MacBook Pro 13-inch Unibody 2012",
+      "slug": "macbook-pro-13-2012-unibody",
+      "model_identifier": "A1278",
+      "year_range": "2012",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "Final non-retina 13 inch MacBook Pro. LCD replacement available."
+    },
+    {
+      "marketing_name": "MacBook Pro 13-inch Unibody 2011",
+      "slug": "macbook-pro-13-2011-unibody",
+      "model_identifier": "A1278",
+      "year_range": "2011",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "Unibody MacBook Pro 13 inch with Sandy Bridge CPU. LCD replacement supported."
+    },
+    {
+      "marketing_name": "MacBook Pro 13-inch Unibody 2010",
+      "slug": "macbook-pro-13-2010-unibody",
+      "model_identifier": "A1278",
+      "year_range": "2010",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "Unibody MacBook Pro 13 inch. LCD replacement available on eligible units."
+    },
+    {
+      "marketing_name": "MacBook Pro 13-inch Unibody 2009",
+      "slug": "macbook-pro-13-2009-unibody",
+      "model_identifier": "A1278",
+      "year_range": "2009",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "First 13 inch MacBook Pro. LCD replacement supported."
+    },
+    {
+      "marketing_name": "MacBook Air 13-inch 2012",
+      "slug": "macbook-air-13-2012",
+      "model_identifier": "A1466",
+      "year_range": "2012",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "MacBook Air 13 inch with Ivy Bridge CPU. LCD replacement available."
+    },
+    {
+      "marketing_name": "MacBook Air 13-inch 2011",
+      "slug": "macbook-air-13-2011",
+      "model_identifier": "A1369",
+      "year_range": "2011",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "MacBook Air 13 inch with Sandy Bridge CPU. LCD replacement supported."
+    },
+    {
+      "marketing_name": "MacBook Air 13-inch 2010",
+      "slug": "macbook-air-13-2010",
+      "model_identifier": "A1369",
+      "year_range": "2010",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "Redesigned MacBook Air with NVIDIA GPU. LCD replacement available."
+    },
+    {
+      "marketing_name": "MacBook Air 11-inch 2012",
+      "slug": "macbook-air-11-2012",
+      "model_identifier": "A1465",
+      "year_range": "2012",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "11.6",
+      "notes": "MacBook Air 11 inch with Ivy Bridge CPU. LCD replacement supported."
+    },
+    {
+      "marketing_name": "MacBook Air 11-inch 2011",
+      "slug": "macbook-air-11-2011",
+      "model_identifier": "A1370",
+      "year_range": "2011",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "11.6",
+      "notes": "MacBook Air 11 inch with Sandy Bridge CPU. LCD replacement available."
+    },
+    {
+      "marketing_name": "MacBook Air 11-inch 2010",
+      "slug": "macbook-air-11-2010",
+      "model_identifier": "A1370",
+      "year_range": "2010",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "11.6",
+      "notes": "First 11 inch MacBook Air. LCD replacement supported on eligible units."
+    },
+    {
+      "marketing_name": "MacBook Air 13-inch 2009",
+      "slug": "macbook-air-13-2009",
+      "model_identifier": "A1304",
+      "year_range": "2009",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "MacBook Air revision with NVIDIA GPU. LCD replacement available."
+    },
+    {
+      "marketing_name": "MacBook Air 13-inch 2008",
+      "slug": "macbook-air-13-2008",
+      "model_identifier": "A1237",
+      "year_range": "2008",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "Original MacBook Air. LCD replacement supported on eligible machines."
+    },
+    {
       "marketing_name": "MacBook White 2010",
       "slug": "macbook-white-2010",
       "model_identifier": "A1342",
@@ -559,6 +739,16 @@
       "lcd_only_supported": true,
       "display_size": "13.3",
       "notes": "Last unibody white MacBook. LCD panel replacement supported."
+    },
+    {
+      "marketing_name": "MacBook White 2009",
+      "slug": "macbook-white-2009",
+      "model_identifier": "A1342",
+      "year_range": "2009",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "Unibody white MacBook. LCD replacement available."
     }
   ]
 }
