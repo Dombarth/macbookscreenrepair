@@ -226,8 +226,9 @@ p { margin-bottom: 1rem; }
 }
 
 .logo img {
-    height: 45px;
+    height: 55px;
     width: auto;
+    max-width: 280px;
 }
 
 .logo-text {
@@ -1014,7 +1015,8 @@ textarea.form-control {
     }
     
     .logo img {
-        height: 38px;
+        height: 45px;
+        max-width: 220px;
     }
     
     .nav-menu {
