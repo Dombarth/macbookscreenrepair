@@ -203,10 +203,10 @@ p { margin-bottom: 1rem; }
     z-index: 1000;
     background: var(--bg-white);
     border-bottom: 1px solid var(--border-light);
-    min-height: 100px;
+    min-height: 180px;
     display: flex;
     align-items: center;
-    padding: 0.5rem 1.5rem;
+    padding: 1rem 1.5rem;
 }
 
 .header-inner {
@@ -226,9 +226,9 @@ p { margin-bottom: 1rem; }
 }
 
 .logo img {
-    height: 80px;
+    height: 160px;
     width: auto;
-    max-width: 400px;
+    max-width: 800px;
 }
 
 .logo-text {
@@ -1015,14 +1015,14 @@ textarea.form-control {
     }
     
     .logo img {
-        height: 60px;
-        max-width: 300px;
+        height: 120px;
+        max-width: 600px;
     }
     
     .nav-menu {
         display: none;
         position: fixed;
-        top: 100px;
+        top: 180px;
         left: 0;
         right: 0;
         bottom: 0;
