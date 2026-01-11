@@ -98,21 +98,17 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     // FAQ Accordion
+    // Open all accordions by default
+    document.querySelectorAll('.accordion-item').forEach(item => {
+        item.classList.add('active');
+    });
+    
     const accordionHeaders = document.querySelectorAll('.accordion-header');
     accordionHeaders.forEach(header => {
         header.addEventListener('click', function() {
             const item = this.parentElement;
-            const wasActive = item.classList.contains('active');
-            
-            // Close all items
-            document.querySelectorAll('.accordion-item').forEach(i => {
-                i.classList.remove('active');
-            });
-            
-            // Open clicked if it wasn't already open
-            if (!wasActive) {
-                item.classList.add('active');
-            }
+            // Toggle the clicked item (allow multiple open)
+            item.classList.toggle('active');
         });
     });
     
