@@ -53,6 +53,8 @@ document.addEventListener('DOMContentLoaded', function() {
         mobileToggle.addEventListener('click', function() {
             navMenu.classList.toggle('active');
             this.classList.toggle('active');
+            // Prevent body scroll when menu is open
+            document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
         });
     }
     
@@ -66,10 +68,33 @@ document.addEventListener('DOMContentLoaded', function() {
             toggle.addEventListener('click', function(e) {
                 if (window.innerWidth <= 768) {
                     e.preventDefault();
-                    menu.classList.toggle('show');
+                    e.stopPropagation();
+                    
+                    // Close other dropdowns
+                    dropdowns.forEach(d => {
+                        if (d !== dropdown) {
+                            d.classList.remove('open');
+                        }
+                    });
+                    
+                    // Toggle current dropdown
+                    dropdown.classList.toggle('open');
                 }
             });
         }
+    });
+    
+    // Close mobile menu when clicking a link (not dropdown toggle)
+    const navLinks = document.querySelectorAll('.nav-menu > a, .dropdown-menu a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            if (window.innerWidth <= 768) {
+                navMenu.classList.remove('active');
+                mobileToggle.classList.remove('active');
+                document.body.style.overflow = '';
+                dropdowns.forEach(d => d.classList.remove('open'));
+            }
+        });
     });
     
     // FAQ Accordion

@@ -151,31 +151,46 @@ p { margin-bottom: 1rem; }
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
+    gap: 1rem;
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.logo img {
+    height: 45px;
+    width: auto;
+}
+
+.logo-text {
     font-family: var(--font-heading);
     font-size: 18px;
     font-weight: 700;
     color: var(--text-dark);
 }
 
-.logo span {
+.logo-text span {
     color: var(--primary-accent);
 }
 
 .nav-menu {
     display: flex;
     align-items: center;
-    gap: 28px;
+    gap: 24px;
 }
 
-.nav-menu a {
+.nav-menu > a,
+.nav-menu > .dropdown > .dropdown-toggle {
     font-family: var(--font-heading);
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
     color: var(--text-dark);
     position: relative;
+    white-space: nowrap;
+    padding: 8px 0;
 }
 
 .nav-menu a:hover {
@@ -211,6 +226,7 @@ p { margin-bottom: 1rem; }
     visibility: hidden;
     transform: translateY(10px);
     transition: all 0.3s ease;
+    z-index: 1001;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -225,6 +241,18 @@ p { margin-bottom: 1rem; }
     font-size: 14px;
 }
 
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-shrink: 0;
+}
+
+/* Hide mobile CTA on desktop */
+.mobile-cta {
+    display: none;
+}
+
 .mobile-toggle {
     display: none;
     background: var(--primary-accent);
@@ -235,6 +263,23 @@ p { margin-bottom: 1rem; }
     cursor: pointer;
     color: var(--text-white);
     font-size: 18px;
+    flex-shrink: 0;
+}
+
+.mobile-toggle.active {
+    background: var(--text-dark);
+}
+
+.mobile-toggle .fa-times {
+    display: none;
+}
+
+.mobile-toggle.active .fa-bars {
+    display: none;
+}
+
+.mobile-toggle.active .fa-times {
+    display: inline;
 }
 
 /* ===== Hero Section ===== */
@@ -871,12 +916,40 @@ textarea.form-control {
     }
 }
 
+@media (max-width: 992px) {
+    .nav-menu {
+        gap: 16px;
+    }
+    
+    .nav-menu > a,
+    .nav-menu > .dropdown > .dropdown-toggle {
+        font-size: 13px;
+    }
+    
+    .header-actions .btn {
+        padding: 10px 16px;
+        font-size: 13px;
+    }
+}
+
 @media (max-width: 768px) {
     h1 { font-size: 30px; }
     h2 { font-size: 24px; }
     
     .section {
         padding: 3rem 1rem;
+    }
+    
+    .header {
+        padding: 0 1rem;
+    }
+    
+    .header-inner {
+        position: relative;
+    }
+    
+    .logo img {
+        height: 38px;
     }
     
     .nav-menu {
@@ -888,17 +961,73 @@ textarea.form-control {
         bottom: 0;
         background: var(--bg-white);
         flex-direction: column;
-        padding: 2rem;
+        padding: 0;
         gap: 0;
+        overflow-y: auto;
+        z-index: 1000;
     }
     
     .nav-menu.active {
         display: flex;
     }
     
-    .nav-menu a {
-        padding: 1rem 0;
+    .nav-menu > a,
+    .nav-menu > .dropdown {
+        width: 100%;
         border-bottom: 1px solid var(--border-light);
+    }
+    
+    .nav-menu > a,
+    .nav-menu > .dropdown > .dropdown-toggle {
+        display: block;
+        padding: 1rem 1.5rem;
+        font-size: 16px;
+    }
+    
+    .nav-menu .dropdown {
+        position: static;
+    }
+    
+    .nav-menu .dropdown-toggle::after {
+        float: right;
+        margin-top: 6px;
+    }
+    
+    .dropdown-menu {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        box-shadow: none;
+        border-radius: 0;
+        padding: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+        background: var(--bg-light);
+    }
+    
+    .dropdown.open .dropdown-menu {
+        max-height: 500px;
+    }
+    
+    .dropdown-menu a {
+        padding: 12px 2rem;
+        border-bottom: 1px solid var(--border-light);
+    }
+    
+    .dropdown-menu a:last-child {
+        border-bottom: none;
+    }
+    
+    .dropdown:hover .dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+    }
+    
+    .header-actions .btn {
+        display: none;
     }
     
     .mobile-toggle {
@@ -949,6 +1078,20 @@ textarea.form-control {
     
     .form-row {
         grid-template-columns: 1fr;
+    }
+    
+    /* Mobile CTA at bottom of menu */
+    .nav-menu .mobile-cta {
+        display: block;
+        padding: 1.5rem;
+        background: var(--bg-light);
+        margin-top: auto;
+    }
+    
+    .nav-menu .mobile-cta .btn {
+        display: flex;
+        width: 100%;
+        justify-content: center;
     }
 }
 
