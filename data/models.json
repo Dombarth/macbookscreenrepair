@@ -1,0 +1,564 @@
+{
+  "models": [
+    {
+      "marketing_name": "MacBook Air 13-inch M4",
+      "slug": "macbook-air-13-m4",
+      "model_identifier": "A3200",
+      "year_range": "2025",
+      "chip_family": "Apple Silicon M4",
+      "lcd_only_supported": true,
+      "display_size": "13.6",
+      "notes": "Latest MacBook Air with M4 chip. LCD panel replacement available when housing is undamaged."
+    },
+    {
+      "marketing_name": "MacBook Air 15-inch M4",
+      "slug": "macbook-air-15-m4",
+      "model_identifier": "A3201",
+      "year_range": "2025",
+      "chip_family": "Apple Silicon M4",
+      "lcd_only_supported": true,
+      "display_size": "15.3",
+      "notes": "15 inch MacBook Air with M4 chip. LCD replacement supported on eligible units."
+    },
+    {
+      "marketing_name": "MacBook Air 13-inch M3",
+      "slug": "macbook-air-13-m3",
+      "model_identifier": "A3113",
+      "year_range": "2024",
+      "chip_family": "Apple Silicon M3",
+      "lcd_only_supported": true,
+      "display_size": "13.6",
+      "notes": "MacBook Air with M3 chip and notch display. LCD only repairs available."
+    },
+    {
+      "marketing_name": "MacBook Air 15-inch M3",
+      "slug": "macbook-air-15-m3",
+      "model_identifier": "A3114",
+      "year_range": "2024",
+      "chip_family": "Apple Silicon M3",
+      "lcd_only_supported": true,
+      "display_size": "15.3",
+      "notes": "15 inch MacBook Air with M3 chip. LCD replacement possible when eligibility requirements are met."
+    },
+    {
+      "marketing_name": "MacBook Air 13-inch M2",
+      "slug": "macbook-air-13-m2",
+      "model_identifier": "A2681",
+      "year_range": "2022",
+      "chip_family": "Apple Silicon M2",
+      "lcd_only_supported": true,
+      "display_size": "13.6",
+      "notes": "Redesigned chassis with notch display. LCD panel replacement available when housing is in good condition."
+    },
+    {
+      "marketing_name": "MacBook Air 15-inch M2",
+      "slug": "macbook-air-15-m2",
+      "model_identifier": "A2941",
+      "year_range": "2023",
+      "chip_family": "Apple Silicon M2",
+      "lcd_only_supported": true,
+      "display_size": "15.3",
+      "notes": "First 15 inch MacBook Air with M2 chip. LCD replacement is supported on units with undamaged housings."
+    },
+    {
+      "marketing_name": "MacBook Air 13-inch M1",
+      "slug": "macbook-air-13-m1",
+      "model_identifier": "A2337",
+      "year_range": "2020",
+      "chip_family": "Apple Silicon M1",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "First Apple Silicon MacBook Air. LCD only replacement is possible when the display housing is undamaged."
+    },
+    {
+      "marketing_name": "MacBook Air 13-inch 2020 Intel",
+      "slug": "macbook-air-13-2020-intel",
+      "model_identifier": "A2179",
+      "year_range": "2020",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "Last Intel MacBook Air before Apple Silicon transition. LCD only replacement supported."
+    },
+    {
+      "marketing_name": "MacBook Air 13-inch 2019",
+      "slug": "macbook-air-13-2019",
+      "model_identifier": "A1932",
+      "year_range": "2019",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "Retina display MacBook Air with True Tone. LCD panel replacement available."
+    },
+    {
+      "marketing_name": "MacBook Air 13-inch 2018",
+      "slug": "macbook-air-13-2018",
+      "model_identifier": "A1932",
+      "year_range": "2018",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "First retina MacBook Air with Touch ID. LCD only repairs are possible on eligible units."
+    },
+    {
+      "marketing_name": "MacBook Air 13-inch 2017",
+      "slug": "macbook-air-13-2017",
+      "model_identifier": "A1466",
+      "year_range": "2017",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "Non-retina display MacBook Air. LCD replacement supported."
+    },
+    {
+      "marketing_name": "MacBook Air 13-inch 2015-2016",
+      "slug": "macbook-air-13-2015",
+      "model_identifier": "A1466",
+      "year_range": "2015-2016",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "Older non-retina MacBook Air with MagSafe. LCD panel replacement available."
+    },
+    {
+      "marketing_name": "MacBook Air 13-inch 2013-2014",
+      "slug": "macbook-air-13-2013",
+      "model_identifier": "A1466",
+      "year_range": "2013-2014",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "Haswell generation MacBook Air. LCD replacement available on eligible machines."
+    },
+    {
+      "marketing_name": "MacBook Air 11-inch 2015",
+      "slug": "macbook-air-11-2015",
+      "model_identifier": "A1465",
+      "year_range": "2015",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "11.6",
+      "notes": "Final 11 inch MacBook Air. LCD panel replacement supported."
+    },
+    {
+      "marketing_name": "MacBook Air 11-inch 2013-2014",
+      "slug": "macbook-air-11-2013",
+      "model_identifier": "A1465",
+      "year_range": "2013-2014",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "11.6",
+      "notes": "Compact 11 inch MacBook Air. LCD replacement available."
+    },
+    {
+      "marketing_name": "MacBook Pro 14-inch M4 Pro/Max",
+      "slug": "macbook-pro-14-m4-pro",
+      "model_identifier": "A3082",
+      "year_range": "2024",
+      "chip_family": "Apple Silicon M4 Pro/Max",
+      "lcd_only_supported": true,
+      "display_size": "14.2",
+      "notes": "14 inch MacBook Pro with M4 Pro or M4 Max. LCD panel replacement supported."
+    },
+    {
+      "marketing_name": "MacBook Pro 14-inch M4",
+      "slug": "macbook-pro-14-m4",
+      "model_identifier": "A3081",
+      "year_range": "2024",
+      "chip_family": "Apple Silicon M4",
+      "lcd_only_supported": true,
+      "display_size": "14.2",
+      "notes": "14 inch MacBook Pro with base M4 chip. LCD replacement available."
+    },
+    {
+      "marketing_name": "MacBook Pro 16-inch M4 Pro/Max",
+      "slug": "macbook-pro-16-m4-pro",
+      "model_identifier": "A3083",
+      "year_range": "2024",
+      "chip_family": "Apple Silicon M4 Pro/Max",
+      "lcd_only_supported": true,
+      "display_size": "16.2",
+      "notes": "16 inch MacBook Pro with M4 Pro or M4 Max chip. LCD replacement available."
+    },
+    {
+      "marketing_name": "MacBook Pro 14-inch M3 Pro/Max",
+      "slug": "macbook-pro-14-m3-pro",
+      "model_identifier": "A2992",
+      "year_range": "2023",
+      "chip_family": "Apple Silicon M3 Pro/Max",
+      "lcd_only_supported": true,
+      "display_size": "14.2",
+      "notes": "14 inch MacBook Pro with M3 Pro or M3 Max chip. LCD replacement supported."
+    },
+    {
+      "marketing_name": "MacBook Pro 14-inch M3",
+      "slug": "macbook-pro-14-m3",
+      "model_identifier": "A2918",
+      "year_range": "2023",
+      "chip_family": "Apple Silicon M3",
+      "lcd_only_supported": true,
+      "display_size": "14.2",
+      "notes": "14 inch MacBook Pro with base M3 chip in space black or silver. LCD only repairs available."
+    },
+    {
+      "marketing_name": "MacBook Pro 16-inch M3 Pro/Max",
+      "slug": "macbook-pro-16-m3-pro",
+      "model_identifier": "A2991",
+      "year_range": "2023",
+      "chip_family": "Apple Silicon M3 Pro/Max",
+      "lcd_only_supported": true,
+      "display_size": "16.2",
+      "notes": "16 inch MacBook Pro with M3 Pro or M3 Max. LCD panel replacement is available."
+    },
+    {
+      "marketing_name": "MacBook Pro 14-inch M2 Pro/Max",
+      "slug": "macbook-pro-14-m2-pro",
+      "model_identifier": "A2779",
+      "year_range": "2023",
+      "chip_family": "Apple Silicon M2 Pro/Max",
+      "lcd_only_supported": true,
+      "display_size": "14.2",
+      "notes": "14 inch MacBook Pro with M2 Pro or M2 Max. LCD replacement supported."
+    },
+    {
+      "marketing_name": "MacBook Pro 16-inch M2 Pro/Max",
+      "slug": "macbook-pro-16-m2-pro",
+      "model_identifier": "A2780",
+      "year_range": "2023",
+      "chip_family": "Apple Silicon M2 Pro/Max",
+      "lcd_only_supported": true,
+      "display_size": "16.2",
+      "notes": "16 inch MacBook Pro with M2 Pro or M2 Max. LCD replacement supported."
+    },
+    {
+      "marketing_name": "MacBook Pro 13-inch M2",
+      "slug": "macbook-pro-13-m2",
+      "model_identifier": "A2689",
+      "year_range": "2022",
+      "chip_family": "Apple Silicon M2",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "Last 13 inch MacBook Pro with Touch Bar design and M2 chip. LCD replacement available on eligible machines."
+    },
+    {
+      "marketing_name": "MacBook Pro 14-inch M1 Pro/Max",
+      "slug": "macbook-pro-14-m1-pro",
+      "model_identifier": "A2442",
+      "year_range": "2021",
+      "chip_family": "Apple Silicon M1 Pro/Max",
+      "lcd_only_supported": true,
+      "display_size": "14.2",
+      "notes": "Redesigned 14 inch MacBook Pro with notch display and MagSafe. LCD panel replacement is possible."
+    },
+    {
+      "marketing_name": "MacBook Pro 16-inch M1 Pro/Max",
+      "slug": "macbook-pro-16-m1-pro",
+      "model_identifier": "A2485",
+      "year_range": "2021",
+      "chip_family": "Apple Silicon M1 Pro/Max",
+      "lcd_only_supported": true,
+      "display_size": "16.2",
+      "notes": "Redesigned 16 inch MacBook Pro with ProMotion display. LCD panel replacement available on eligible units."
+    },
+    {
+      "marketing_name": "MacBook Pro 13-inch M1",
+      "slug": "macbook-pro-13-m1",
+      "model_identifier": "A2338",
+      "year_range": "2020",
+      "chip_family": "Apple Silicon M1",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "First Apple Silicon MacBook Pro with Touch Bar. LCD only replacement is available when the housing is not damaged."
+    },
+    {
+      "marketing_name": "MacBook Pro 13-inch 2020 Four Thunderbolt",
+      "slug": "macbook-pro-13-2020-4port",
+      "model_identifier": "A2251",
+      "year_range": "2020",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "Higher spec Intel 13 inch with four Thunderbolt 3 ports and 10th gen CPU. LCD only repairs supported."
+    },
+    {
+      "marketing_name": "MacBook Pro 13-inch 2020 Two Thunderbolt",
+      "slug": "macbook-pro-13-2020-2port",
+      "model_identifier": "A2289",
+      "year_range": "2020",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "Entry Intel MacBook Pro 13 inch with Touch Bar and two ports. LCD replacement available."
+    },
+    {
+      "marketing_name": "MacBook Pro 13-inch 2019 Four Thunderbolt",
+      "slug": "macbook-pro-13-2019-4port",
+      "model_identifier": "A1989",
+      "year_range": "2019",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "Higher spec 13 inch with four Thunderbolt 3 ports. LCD replacement supported."
+    },
+    {
+      "marketing_name": "MacBook Pro 13-inch 2019 Two Thunderbolt",
+      "slug": "macbook-pro-13-2019-2port",
+      "model_identifier": "A2159",
+      "year_range": "2019",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "Entry level 13 inch MacBook Pro with Touch Bar. LCD panel replacement available."
+    },
+    {
+      "marketing_name": "MacBook Pro 13-inch 2018 Four Thunderbolt",
+      "slug": "macbook-pro-13-2018",
+      "model_identifier": "A1989",
+      "year_range": "2018",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "Touch Bar MacBook Pro 13 inch with True Tone display. LCD only repairs available."
+    },
+    {
+      "marketing_name": "MacBook Pro 13-inch 2017 Four Thunderbolt",
+      "slug": "macbook-pro-13-2017-4port",
+      "model_identifier": "A1706",
+      "year_range": "2017",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "Touch Bar model 13 inch with Kaby Lake CPU. LCD panel replacement available."
+    },
+    {
+      "marketing_name": "MacBook Pro 13-inch 2017 Two Thunderbolt",
+      "slug": "macbook-pro-13-2017-2port",
+      "model_identifier": "A1708",
+      "year_range": "2017",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "Function key MacBook Pro without Touch Bar. Popular model for repairs. LCD replacement supported."
+    },
+    {
+      "marketing_name": "MacBook Pro 13-inch 2016 Four Thunderbolt",
+      "slug": "macbook-pro-13-2016-4port",
+      "model_identifier": "A1706",
+      "year_range": "2016",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "First Touch Bar MacBook Pro. LCD only repairs available."
+    },
+    {
+      "marketing_name": "MacBook Pro 13-inch 2016 Two Thunderbolt",
+      "slug": "macbook-pro-13-2016-2port",
+      "model_identifier": "A1708",
+      "year_range": "2016",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "First USB-C only MacBook Pro 13 inch without Touch Bar. LCD replacement supported."
+    },
+    {
+      "marketing_name": "MacBook Pro 15-inch 2019",
+      "slug": "macbook-pro-15-2019",
+      "model_identifier": "A1990",
+      "year_range": "2019",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "15.4",
+      "notes": "Last 15 inch MacBook Pro before 16 inch model. 9th gen Intel CPU. LCD replacement available."
+    },
+    {
+      "marketing_name": "MacBook Pro 15-inch 2018",
+      "slug": "macbook-pro-15-2018",
+      "model_identifier": "A1990",
+      "year_range": "2018",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "15.4",
+      "notes": "Touch Bar MacBook Pro 15 inch with True Tone display. LCD panel replacement supported."
+    },
+    {
+      "marketing_name": "MacBook Pro 15-inch 2017",
+      "slug": "macbook-pro-15-2017",
+      "model_identifier": "A1707",
+      "year_range": "2017",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "15.4",
+      "notes": "Touch Bar 15 inch MacBook Pro with Kaby Lake CPU. LCD only repairs available."
+    },
+    {
+      "marketing_name": "MacBook Pro 15-inch 2016",
+      "slug": "macbook-pro-15-2016",
+      "model_identifier": "A1707",
+      "year_range": "2016",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "15.4",
+      "notes": "First USB-C 15 inch MacBook Pro with Touch Bar. LCD replacement supported."
+    },
+    {
+      "marketing_name": "MacBook Pro 16-inch 2019",
+      "slug": "macbook-pro-16-2019",
+      "model_identifier": "A2141",
+      "year_range": "2019",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "16.0",
+      "notes": "First 16 inch MacBook Pro replacing the 15 inch. Improved keyboard and larger display. LCD panel replacement available."
+    },
+    {
+      "marketing_name": "MacBook Pro 13-inch Retina 2015",
+      "slug": "macbook-pro-13-2015",
+      "model_identifier": "A1502",
+      "year_range": "2015",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "MagSafe era MacBook Pro 13 inch with Force Touch trackpad. LCD replacement supported."
+    },
+    {
+      "marketing_name": "MacBook Pro 13-inch Retina 2014",
+      "slug": "macbook-pro-13-2014",
+      "model_identifier": "A1502",
+      "year_range": "2014",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "Haswell generation 13 inch MacBook Pro. LCD panel replacement available."
+    },
+    {
+      "marketing_name": "MacBook Pro 13-inch Retina 2013",
+      "slug": "macbook-pro-13-2013",
+      "model_identifier": "A1502",
+      "year_range": "2013",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "Late 2013 MacBook Pro 13 inch with Haswell CPU. LCD replacement supported."
+    },
+    {
+      "marketing_name": "MacBook Pro 13-inch Retina 2012",
+      "slug": "macbook-pro-13-2012",
+      "model_identifier": "A1425",
+      "year_range": "2012",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "First 13 inch Retina MacBook Pro. LCD panel replacement available."
+    },
+    {
+      "marketing_name": "MacBook Pro 15-inch Retina 2015",
+      "slug": "macbook-pro-15-2015",
+      "model_identifier": "A1398",
+      "year_range": "2015",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "15.4",
+      "notes": "MagSafe era MacBook Pro 15 inch with Force Touch. LCD panel replacement available."
+    },
+    {
+      "marketing_name": "MacBook Pro 15-inch Retina 2014",
+      "slug": "macbook-pro-15-2014",
+      "model_identifier": "A1398",
+      "year_range": "2014",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "15.4",
+      "notes": "Haswell generation 15 inch MacBook Pro. LCD replacement supported."
+    },
+    {
+      "marketing_name": "MacBook Pro 15-inch Retina 2013",
+      "slug": "macbook-pro-15-2013",
+      "model_identifier": "A1398",
+      "year_range": "2013",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "15.4",
+      "notes": "Late 2013 MacBook Pro 15 inch. LCD panel replacement available."
+    },
+    {
+      "marketing_name": "MacBook Pro 15-inch Retina 2012",
+      "slug": "macbook-pro-15-2012",
+      "model_identifier": "A1398",
+      "year_range": "2012",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "15.4",
+      "notes": "First Retina MacBook Pro. LCD replacement supported on eligible units."
+    },
+    {
+      "marketing_name": "MacBook 12-inch 2017",
+      "slug": "macbook-12-2017",
+      "model_identifier": "A1534",
+      "year_range": "2017",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "12.0",
+      "notes": "Final year of the 12 inch MacBook with Kaby Lake CPU. LCD replacement supported."
+    },
+    {
+      "marketing_name": "MacBook 12-inch 2016",
+      "slug": "macbook-12-2016",
+      "model_identifier": "A1534",
+      "year_range": "2016",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "12.0",
+      "notes": "Second generation 12 inch MacBook with Skylake CPU. LCD panel replacement available."
+    },
+    {
+      "marketing_name": "MacBook 12-inch 2015",
+      "slug": "macbook-12-2015",
+      "model_identifier": "A1534",
+      "year_range": "2015",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "12.0",
+      "notes": "First 12 inch MacBook with Retina display and single USB-C port. LCD only repairs supported."
+    },
+    {
+      "marketing_name": "MacBook Pro 13-inch Non-Retina 2012",
+      "slug": "macbook-pro-13-2012-non-retina",
+      "model_identifier": "A1278",
+      "year_range": "2012",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "Last non-retina 13 inch MacBook Pro with optical drive. LCD replacement available."
+    },
+    {
+      "marketing_name": "MacBook Pro 15-inch Non-Retina 2012",
+      "slug": "macbook-pro-15-2012-non-retina",
+      "model_identifier": "A1286",
+      "year_range": "2012",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "15.4",
+      "notes": "Last non-retina 15 inch MacBook Pro with optical drive. LCD panel replacement supported."
+    },
+    {
+      "marketing_name": "MacBook Pro 17-inch 2011",
+      "slug": "macbook-pro-17-2011",
+      "model_identifier": "A1297",
+      "year_range": "2011",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "17.0",
+      "notes": "Final 17 inch MacBook Pro. LCD replacement available on eligible units."
+    },
+    {
+      "marketing_name": "MacBook White 2010",
+      "slug": "macbook-white-2010",
+      "model_identifier": "A1342",
+      "year_range": "2010",
+      "chip_family": "Intel",
+      "lcd_only_supported": true,
+      "display_size": "13.3",
+      "notes": "Last unibody white MacBook. LCD panel replacement supported."
+    }
+  ]
+}

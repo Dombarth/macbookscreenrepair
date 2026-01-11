@@ -1,0 +1,129 @@
+{
+  "faqs": [
+    {
+      "question": "Whats the difference between LCD only replacement and full display replacement?",
+      "answer": "LCD only replacement means we swap just the internal LCD panel while keeping your original display housing, backlight layers, camera and lid electronics. Its cheaper and faster when your housing isnt damaged. Full display replacement means the entire lid assembly gets replaced which is necessary when theres frame damage, dents, liquid exposure or structural issues.",
+      "tags": ["lcd-only", "general", "services"]
+    },
+    {
+      "question": "How do I know if my MacBook qualifies for LCD only repair?",
+      "answer": "Your MacBook needs to meet all the eligibility requirements. No dents or bends in the display frame, no signs of liquid damage around the screen, and the bezels and corners need to be in good condition. We check this when you drop off. If theres any structural damage or liquid exposure we cant do LCD only and would need to look at full display replacement instead.",
+      "tags": ["lcd-only", "eligibility", "general"]
+    },
+    {
+      "question": "Will I lose True Tone after a screen repair?",
+      "answer": "It depends on the repair type. LCD only replacement keeps your original display housing and electronics so True Tone usually stays working. Full display replacement can affect True Tone because Apple ties certain features to the original hardware calibration. Independent repairers cant override these Apple system controls.",
+      "tags": ["true-tone", "features", "general"]
+    },
+    {
+      "question": "Do you offer mail in or shipping repairs?",
+      "answer": "No we only do drop off repairs. You need to bring your MacBook to us for assessment and repair. We dont accept posted machines or do any remote service. This lets us properly assess the damage and discuss options with you in person.",
+      "tags": ["drop-off", "policy", "general"]
+    },
+    {
+      "question": "How long does a MacBook screen repair take?",
+      "answer": "Most LCD only repairs are same day if we have parts in stock. Full display replacements can take a bit longer depending on parts availability for your specific model. We can give you a better timeframe once we see the machine and confirm what parts are needed.",
+      "tags": ["turnaround", "general"]
+    },
+    {
+      "question": "What warranty do you offer on screen repairs?",
+      "answer": "We offer a 60 day limited warranty on internal LCD panel replacements. This covers the replaced component and our workmanship. It doesnt cover physical damage, liquid damage, impact damage or issues unrelated to the screen we replaced. If something goes wrong with the work we did within 60 days bring it back.",
+      "tags": ["warranty", "policy", "general"]
+    },
+    {
+      "question": "My MacBook screen has a crack but still works. Do I need to fix it?",
+      "answer": "Cracks can spread over time especially with temperature changes or if the laptop gets bumped. A working screen with a small crack can turn into a completely dead screen pretty quickly. Better to sort it out before it gets worse and potentially causes more damage.",
+      "tags": ["damage", "general"]
+    },
+    {
+      "question": "Can you fix a MacBook screen with liquid damage?",
+      "answer": "If theres liquid damage around the display area LCD only replacement wont be possible. Liquid can affect the backlight layers and other components in the display housing. We would need to look at full display replacement and assess whether the liquid has affected anything else in the machine.",
+      "tags": ["liquid-damage", "eligibility", "general"]
+    },
+    {
+      "question": "Do you use genuine Apple parts?",
+      "answer": "We use high quality aftermarket LCD panels that match or exceed OEM specifications. Apple doesnt sell genuine screen parts to independent repairers. The panels we use are the same grade as whats in your MacBook originally just sourced through different supply chains.",
+      "tags": ["parts", "general"]
+    },
+    {
+      "question": "Why is Apple quoting so much more than you?",
+      "answer": "Apple replaces the entire display assembly regardless of whats actually wrong. If you have a cracked LCD but your housing is fine they still replace everything. We can often do LCD only replacement which saves on parts cost. Also Apple authorised service carries a premium.",
+      "tags": ["pricing", "general"]
+    },
+    {
+      "question": "My screen has lines running through it. Is that fixable?",
+      "answer": "Lines on the screen usually mean the LCD panel itself has failed. This is one of the most common issues we see and LCD only replacement fixes it in most cases. We just need to check that the display housing isnt damaged before confirming the repair.",
+      "tags": ["symptoms", "damage", "lcd-only"]
+    },
+    {
+      "question": "Can you fix a screen that flickers on and off?",
+      "answer": "Flickering can be caused by a failing LCD panel or sometimes cable issues. Most flickering screens can be fixed with LCD panel replacement. Well have a look when you bring it in to confirm whats causing it and whether LCD only repair is suitable.",
+      "tags": ["symptoms", "damage", "lcd-only"]
+    },
+    {
+      "question": "What if you find other problems when you open it up?",
+      "answer": "We focus on screen repairs. If we find something unrelated during assessment well let you know but we wont push you to fix other things. If the screen repair cant proceed for some reason well explain why and you can decide what to do next.",
+      "tags": ["assessment", "policy", "general"]
+    },
+    {
+      "question": "Do I need to back up my MacBook before bringing it in?",
+      "answer": "We always recommend backing up before any repair. Screen replacement shouldnt affect your data but its good practice. If something unexpected happens during the repair having a backup means you havent lost anything important.",
+      "tags": ["preparation", "general"]
+    },
+    {
+      "question": "Can you repair MacBook screens with Touch Bar?",
+      "answer": "Yes we repair MacBook Pro models with Touch Bar. The Touch Bar is separate from the main display so screen replacement doesnt affect it. Just note that some Touch Bar models have different display assemblies depending on the year and port configuration.",
+      "tags": ["touch-bar", "models", "general"]
+    },
+    {
+      "question": "My screen is black but I can hear the Mac running. Is the screen broken?",
+      "answer": "A black screen with sounds of the Mac running is often a failed backlight or LCD panel. But it can also be a graphics issue or logic board problem. We can diagnose this when you bring it in. If its just the screen we can fix it.",
+      "tags": ["symptoms", "diagnosis", "general"]
+    },
+    {
+      "question": "Do you repair screens on old MacBooks?",
+      "answer": "We repair screens on MacBooks going back quite a few years. Parts availability can vary for older models but we can usually source what we need. Bring it in and well see what we can do for your specific machine.",
+      "tags": ["older-models", "general"]
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash, card and bank transfer. Payment is due when the repair is complete and youre picking up your MacBook. We dont take payment until the work is done and youre happy with the result.",
+      "tags": ["payment", "policy", "general"]
+    },
+    {
+      "question": "My MacBook got stepped on and the lid is bent. Can you fix the screen?",
+      "answer": "If the lid or display frame is bent or warped LCD only replacement wont work. The housing needs to be in good physical condition for us to just swap the panel inside. With frame damage youre looking at full display replacement to fix both the structural damage and the screen.",
+      "tags": ["damage", "eligibility", "full-display"]
+    },
+    {
+      "question": "Is LCD only replacement available for M1 and M2 MacBooks?",
+      "answer": "Yes LCD only replacement works on Apple Silicon MacBooks including M1, M2, M3 and M4 models. The chip inside doesnt affect whether we can do LCD only repair. What matters is the physical condition of your display housing and frame.",
+      "tags": ["apple-silicon", "lcd-only", "models"]
+    },
+    {
+      "question": "How do I find my MacBook model number?",
+      "answer": "The model number starting with A followed by four digits is printed on the bottom of your MacBook in small text. You can also click the Apple menu, choose About This Mac, and look at the model information. The year and screen size help us identify which parts you need.",
+      "tags": ["models", "general"]
+    },
+    {
+      "question": "Can screen damage affect other parts of my MacBook?",
+      "answer": "A cracked screen usually doesnt spread to other components unless theres been liquid involved or severe impact. But leaving a damaged screen can sometimes cause issues if glass fragments get into places they shouldnt or if flexing a cracked panel damages the cables.",
+      "tags": ["damage", "general"]
+    },
+    {
+      "question": "Do you fix screens on MacBook Air or just MacBook Pro?",
+      "answer": "We repair screens on both MacBook Air and MacBook Pro models across all years and sizes. The process and eligibility requirements are similar for both lines. LCD only replacement is available for most Air and Pro models when the housing is undamaged.",
+      "tags": ["models", "general"]
+    },
+    {
+      "question": "What areas do you service?",
+      "answer": "We service MacBook owners across Western Sydney, The Hills District and North West Sydney. Customers come from Parramatta, Castle Hill, Blacktown, Penrith, Baulkham Hills, Rouse Hill, Kellyville and all the surrounding suburbs for drop off repairs.",
+      "tags": ["location", "service-area", "general"]
+    },
+    {
+      "question": "Can I wait while my MacBook screen is being repaired?",
+      "answer": "For same day repairs you can wait or come back later when its ready. Most people prefer to drop off and pick up later in the day. We can give you an estimated completion time once we assess the machine and confirm parts availability.",
+      "tags": ["turnaround", "drop-off", "general"]
+    }
+  ]
+}

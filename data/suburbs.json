@@ -1,0 +1,347 @@
+{
+  "suburbs": [
+    {
+      "name": "Parramatta",
+      "slug": "parramatta",
+      "postcode": "2150",
+      "region": "Western Sydney",
+      "local_context_text": "Parramatta is one of the busiest commercial centres in Western Sydney. We see alot of MacBooks coming through from office workers and students around the CBD area and nearby universities. Most common issues are cracked screens from bag drops and transport incidents."
+    },
+    {
+      "name": "Castle Hill",
+      "slug": "castle-hill",
+      "postcode": "2154",
+      "region": "The Hills District",
+      "local_context_text": "Castle Hill sits right in the heart of The Hills District. The team have noticed a fair number of MacBook Pro models coming in from home offices and small businesses around the Showground area. Screen damage from desk accidents seems pretty common here."
+    },
+    {
+      "name": "Blacktown",
+      "slug": "blacktown",
+      "postcode": "2148",
+      "region": "Western Sydney",
+      "local_context_text": "Blacktown is a major hub in Western Sydney with alot of foot traffic. We get MacBooks from students at nearby schools and TAFE as well as tradespeople running their admin from home. The A1708 and A1989 models come through regularly."
+    },
+    {
+      "name": "Penrith",
+      "slug": "penrith",
+      "postcode": "2750",
+      "region": "Western Sydney",
+      "local_context_text": "Penrith sits out towards the Blue Mountains and covers a large part of outer Western Sydney. We service customers from Penrith, Emu Plains, Jamisontown and surrounds. MacBook Air models seem to be the most common out this way."
+    },
+    {
+      "name": "Baulkham Hills",
+      "slug": "baulkham-hills",
+      "postcode": "2153",
+      "region": "The Hills District",
+      "local_context_text": "Baulkham Hills is a residential area in The Hills with plenty of home offices and families. The MacBook Pro 13 inch models are what we see most from this suburb. Cracked screens from kids and pets knocking laptops off tables is surprisingly common."
+    },
+    {
+      "name": "Rouse Hill",
+      "slug": "rouse-hill",
+      "postcode": "2155",
+      "region": "North West Sydney",
+      "local_context_text": "Rouse Hill has grown rapidly over the past decade with the new metro line bringing more people to the area. We get MacBooks from young professionals and families in the newer estates. The M1 and M2 MacBook Air models are starting to show up more frequently now."
+    },
+    {
+      "name": "Kellyville",
+      "slug": "kellyville",
+      "postcode": "2155",
+      "region": "The Hills District",
+      "local_context_text": "Kellyville is another fast growing suburb in The Hills. Lots of new builds and young families. We see a mix of older Intel MacBooks that people have held onto as well as the newer Apple Silicon models. Screen replacements for MacBook Pro 15 inch and 16 inch models are not uncommon."
+    },
+    {
+      "name": "Norwest",
+      "slug": "norwest",
+      "postcode": "2153",
+      "region": "The Hills District",
+      "local_context_text": "Norwest Business Park is a major commercial hub with plenty of corporate offices. The MacBooks coming from Norwest tend to be company machines often with AppleCare that has lapsed. We handle the screen repairs that Apple quotes thousands for."
+    },
+    {
+      "name": "Bella Vista",
+      "slug": "bella-vista",
+      "postcode": "2153",
+      "region": "The Hills District",
+      "local_context_text": "Bella Vista is right next to Norwest and has a similar mix of residential and commercial. The team have serviced plenty of MacBooks from people working in the business park who prefer a local repair option over sending their machine off."
+    },
+    {
+      "name": "Seven Hills",
+      "slug": "seven-hills",
+      "postcode": "2147",
+      "region": "Western Sydney",
+      "local_context_text": "Seven Hills connects Western Sydney to the M2 and M7 motorways making it convenient for drop offs. We get MacBooks from across the region coming through Seven Hills. The older MacBook Pro models from 2015 to 2019 are still common here."
+    },
+    {
+      "name": "Winston Hills",
+      "slug": "winston-hills",
+      "postcode": "2153",
+      "region": "Western Sydney",
+      "local_context_text": "Winston Hills sits between Parramatta and The Hills District. Its a quiet residential area with alot of established families. MacBook repairs from Winston Hills tend to be older machines that people have looked after but the screen has finally given up."
+    },
+    {
+      "name": "Northmead",
+      "slug": "northmead",
+      "postcode": "2152",
+      "region": "Western Sydney",
+      "local_context_text": "Northmead is close to Parramatta and has easy access to public transport. We see MacBooks from students and young professionals in this area. The MacBook Air models are popular here probably due to the lighter weight for commuting."
+    },
+    {
+      "name": "Toongabbie",
+      "slug": "toongabbie",
+      "postcode": "2146",
+      "region": "Western Sydney",
+      "local_context_text": "Toongabbie and Old Toongabbie are established suburbs with a mix of housing. The team have repaired plenty of MacBooks from this area over the years. Screen damage from everyday accidents at home or work is what we see most."
+    },
+    {
+      "name": "Wentworthville",
+      "slug": "wentworthville",
+      "postcode": "2145",
+      "region": "Western Sydney",
+      "local_context_text": "Wentworthville has good train connections making it easy for people to drop off MacBooks on their way to work. We get a steady flow of repairs from this suburb. The 13 inch MacBook Pro models are the most common screen replacements."
+    },
+    {
+      "name": "Westmead",
+      "slug": "westmead",
+      "postcode": "2145",
+      "region": "Western Sydney",
+      "local_context_text": "Westmead is home to a major hospital precinct and alot of medical professionals. We see MacBooks from doctors nurses and admin staff working in the area. These machines often have heavy use and the screens wear out over time."
+    },
+    {
+      "name": "Merrylands",
+      "slug": "merrylands",
+      "postcode": "2160",
+      "region": "Western Sydney",
+      "local_context_text": "Merrylands is a busy suburb south of Parramatta with alot of small businesses and residential areas. MacBook repairs from here are often from people running home businesses who need their machine back quickly."
+    },
+    {
+      "name": "Guildford",
+      "slug": "guildford",
+      "postcode": "2161",
+      "region": "Western Sydney",
+      "local_context_text": "Guildford is an established suburb with good access to Western Sydney. We get MacBooks from families and small business owners in this area. The older MacBook Air models are still common here with screens that have started to fail."
+    },
+    {
+      "name": "Granville",
+      "slug": "granville",
+      "postcode": "2142",
+      "region": "Western Sydney",
+      "local_context_text": "Granville is a transport hub connecting multiple train lines. Its convenient for MacBook drop offs from people across Western Sydney. We see a mix of models from this area reflecting the diverse community."
+    },
+    {
+      "name": "Auburn",
+      "slug": "auburn",
+      "postcode": "2144",
+      "region": "Western Sydney",
+      "local_context_text": "Auburn has a large population and plenty of small businesses. The team repair MacBooks from students at local schools as well as business owners in the commercial areas. Screen cracks from transport incidents are common."
+    },
+    {
+      "name": "Lidcombe",
+      "slug": "lidcombe",
+      "postcode": "2141",
+      "region": "Western Sydney",
+      "local_context_text": "Lidcombe sits near Olympic Park and has grown significantly over the years. We get MacBooks from the newer apartment developments as well as established homes. The MacBook Pro 13 inch and MacBook Air are the most common models."
+    },
+    {
+      "name": "Strathfield",
+      "slug": "strathfield",
+      "postcode": "2135",
+      "region": "Western Sydney",
+      "local_context_text": "Strathfield is a major education hub with several private schools and easy access to universities. We see alot of student MacBooks from this area. Screen damage from schoolbags and crowded trains is pretty common."
+    },
+    {
+      "name": "Homebush",
+      "slug": "homebush",
+      "postcode": "2140",
+      "region": "Western Sydney",
+      "local_context_text": "Homebush and Homebush West are close to the commercial centres around Rhodes. MacBook repairs from this area often come from professionals working in the nearby office parks. The newer MacBook Pro models are becoming more common."
+    },
+    {
+      "name": "Epping",
+      "slug": "epping",
+      "postcode": "2121",
+      "region": "North West Sydney",
+      "local_context_text": "Epping connects to both the northern and north west train lines making it a busy hub. We get MacBooks from professionals commuting into the city as well as students at local schools. The M1 MacBook Air is increasingly popular in this area."
+    },
+    {
+      "name": "Eastwood",
+      "slug": "eastwood",
+      "postcode": "2122",
+      "region": "North West Sydney",
+      "local_context_text": "Eastwood has a vibrant commercial centre and is popular with families. The team see MacBooks from small businesses and home offices in this suburb. Screen repairs for the 13 inch models are the bread and butter work here."
+    },
+    {
+      "name": "Carlingford",
+      "slug": "carlingford",
+      "postcode": "2118",
+      "region": "The Hills District",
+      "local_context_text": "Carlingford is a residential suburb near the new metro line. We get MacBooks from families and professionals in this area. The older MacBook Pro 15 inch models with the touchbar are still common here and the screens do fail."
+    },
+    {
+      "name": "Cherrybrook",
+      "slug": "cherrybrook",
+      "postcode": "2126",
+      "region": "The Hills District",
+      "local_context_text": "Cherrybrook is a leafy suburb in The Hills with good schools. We see alot of MacBooks from students at the local high schools. Screen damage from bags and accidental drops is the most common issue we repair."
+    },
+    {
+      "name": "Dural",
+      "slug": "dural",
+      "postcode": "2158",
+      "region": "The Hills District",
+      "local_context_text": "Dural is a semi rural area on the edge of The Hills District. We get MacBooks from hobby farms and rural properties as well as the residential areas. People out here tend to keep their machines longer so older models are common."
+    },
+    {
+      "name": "Glenhaven",
+      "slug": "glenhaven",
+      "postcode": "2156",
+      "region": "The Hills District",
+      "local_context_text": "Glenhaven is a quiet residential suburb near Castle Hill. MacBook repairs from this area are usually from families and home offices. The team have noticed alot of MacBook Air screens coming in from Glenhaven."
+    },
+    {
+      "name": "Kenthurst",
+      "slug": "kenthurst",
+      "postcode": "2156",
+      "region": "The Hills District",
+      "local_context_text": "Kenthurst is a rural residential area in the northern Hills. People out here often have longer commutes and their MacBooks see heavy use. We repair screens for customers who prefer a local option over travelling into the city."
+    },
+    {
+      "name": "Annangrove",
+      "slug": "annangrove",
+      "postcode": "2156",
+      "region": "The Hills District",
+      "local_context_text": "Annangrove sits in the northern Hills District with larger properties and a rural feel. MacBook repairs from this area are not super frequent but when they come in its usually older models that people have kept going for years."
+    },
+    {
+      "name": "Beaumont Hills",
+      "slug": "beaumont-hills",
+      "postcode": "2155",
+      "region": "The Hills District",
+      "local_context_text": "Beaumont Hills is a newer suburb near Rouse Hill with modern housing developments. We see the newer MacBook models from this area including the M1 and M2 machines. Screen issues on these newer models are often hairline cracks."
+    },
+    {
+      "name": "The Ponds",
+      "slug": "the-ponds",
+      "postcode": "2769",
+      "region": "North West Sydney",
+      "local_context_text": "The Ponds is one of the newer suburbs in the North West with young families and new builds. MacBooks from this area tend to be newer models. We see alot of M1 MacBook Air screens that have been cracked by kids or pets."
+    },
+    {
+      "name": "Stanhope Gardens",
+      "slug": "stanhope-gardens",
+      "postcode": "2768",
+      "region": "North West Sydney",
+      "local_context_text": "Stanhope Gardens is a planned estate near Blacktown with a mix of townhouses and freestanding homes. The team repair MacBooks from families and home offices in this suburb. The MacBook Pro 13 inch is the most common model we see."
+    },
+    {
+      "name": "Quakers Hill",
+      "slug": "quakers-hill",
+      "postcode": "2763",
+      "region": "North West Sydney",
+      "local_context_text": "Quakers Hill is a large suburb in the North West with good train connections. We get MacBooks from across the suburb including students at the local schools. Screen repairs are steady from this area throughout the year."
+    },
+    {
+      "name": "Riverstone",
+      "slug": "riverstone",
+      "postcode": "2765",
+      "region": "North West Sydney",
+      "local_context_text": "Riverstone is a growing suburb near the North West growth corridor. New developments are bringing more people to the area and with them more MacBooks. We service the whole suburb and surrounds."
+    },
+    {
+      "name": "Schofields",
+      "slug": "schofields",
+      "postcode": "2762",
+      "region": "North West Sydney",
+      "local_context_text": "Schofields has exploded in recent years with new housing estates everywhere. Young families moving into the area often have MacBooks for work and study. Screen damage is common with little kids around."
+    },
+    {
+      "name": "Marsden Park",
+      "slug": "marsden-park",
+      "postcode": "2765",
+      "region": "North West Sydney",
+      "local_context_text": "Marsden Park is another fast growing suburb in the North West. We get MacBooks from the new estates as well as people working from home. The newer M1 and M2 models are becoming more common in repairs."
+    },
+    {
+      "name": "Box Hill",
+      "slug": "box-hill",
+      "postcode": "2765",
+      "region": "The Hills District",
+      "local_context_text": "Box Hill is a newer development area between The Hills and North West Sydney. MacBook repairs from here tend to be newer models from young professionals and families settling in the new estates."
+    },
+    {
+      "name": "Vineyard",
+      "slug": "vineyard",
+      "postcode": "2765",
+      "region": "North West Sydney",
+      "local_context_text": "Vineyard sits near the Hawkesbury River with a mix of older properties and new developments. We service MacBooks from across the area. People out here appreciate having a repair option closer than the city."
+    },
+    {
+      "name": "Richmond",
+      "slug": "richmond",
+      "postcode": "2753",
+      "region": "Western Sydney",
+      "local_context_text": "Richmond is out near the Hawkesbury and Air Force base. We get MacBooks from families and personnel in the area. The older MacBook Pro models are common out here and the screens do eventually fail."
+    },
+    {
+      "name": "Windsor",
+      "slug": "windsor",
+      "postcode": "2756",
+      "region": "Western Sydney",
+      "local_context_text": "Windsor is a historic town in the Hawkesbury region. MacBook repairs from this area often come from small businesses and home offices. People prefer a local repair option rather than travelling into Parramatta or the city."
+    },
+    {
+      "name": "Mount Druitt",
+      "slug": "mount-druitt",
+      "postcode": "2770",
+      "region": "Western Sydney",
+      "local_context_text": "Mount Druitt is a major centre in Western Sydney with good transport links. We service MacBooks from across the suburb and surrounding areas. The older MacBook Air models from 2017 to 2020 are still common here."
+    },
+    {
+      "name": "St Marys",
+      "slug": "st-marys",
+      "postcode": "2760",
+      "region": "Western Sydney",
+      "local_context_text": "St Marys is between Penrith and Mount Druitt with a busy commercial strip. We get MacBooks from local businesses and residents. Screen repairs are steady from this area with a mix of older and newer models."
+    },
+    {
+      "name": "Rooty Hill",
+      "slug": "rooty-hill",
+      "postcode": "2766",
+      "region": "Western Sydney",
+      "local_context_text": "Rooty Hill is a large suburb in Western Sydney with the RSL as a local landmark. MacBook repairs from this area come from families and small businesses. The 13 inch MacBook Pro is the most common model we see."
+    },
+    {
+      "name": "Doonside",
+      "slug": "doonside",
+      "postcode": "2767",
+      "region": "Western Sydney",
+      "local_context_text": "Doonside is a residential suburb near Blacktown. We get MacBooks from families and students in this area. Screen damage from everyday use is the most common issue we repair for Doonside customers."
+    },
+    {
+      "name": "Kings Langley",
+      "slug": "kings-langley",
+      "postcode": "2147",
+      "region": "The Hills District",
+      "local_context_text": "Kings Langley sits on the edge of The Hills District near Blacktown. Its a quiet residential area with alot of families. MacBook repairs from here are usually home machines that have been well used over the years."
+    },
+    {
+      "name": "Lalor Park",
+      "slug": "lalor-park",
+      "postcode": "2147",
+      "region": "Western Sydney",
+      "local_context_text": "Lalor Park is a small suburb near Seven Hills. We get MacBooks from families and students in the area. The team have repaired plenty of screens for customers who found us through local recommendations."
+    },
+    {
+      "name": "Prospect",
+      "slug": "prospect",
+      "postcode": "2148",
+      "region": "Western Sydney",
+      "local_context_text": "Prospect is near the reservoir and industrial areas of Western Sydney. MacBook repairs from this suburb come from home offices and small businesses. Screen damage from transport and everyday use is common."
+    },
+    {
+      "name": "Greystanes",
+      "slug": "greystanes",
+      "postcode": "2145",
+      "region": "Western Sydney",
+      "local_context_text": "Greystanes is a residential suburb between Parramatta and Blacktown. We get MacBooks from families and students at local schools. The MacBook Air models are popular in this area for their portability."
+    }
+  ]
+}
