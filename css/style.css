@@ -57,6 +57,59 @@ a {
     transition: color 0.3s ease;
 }
 
+/* ===== Content Links (Interlinking) ===== */
+/* Style links within content areas to stand out with theme colors */
+.content-block a,
+.section p a,
+.section li a,
+.info-box a,
+.accordion-body a,
+main p a,
+main li a {
+    color: var(--secondary-accent);
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: rgba(50, 130, 184, 0.3);
+    text-underline-offset: 2px;
+    transition: all 0.2s ease;
+}
+
+.content-block a:hover,
+.section p a:hover,
+.section li a:hover,
+.info-box a:hover,
+.accordion-body a:hover,
+main p a:hover,
+main li a:hover {
+    color: var(--primary-accent);
+    text-decoration-color: var(--primary-accent);
+}
+
+/* Links in pricing tables */
+.pricing-table a {
+    color: var(--secondary-accent);
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 1px dashed var(--secondary-accent);
+    transition: all 0.2s ease;
+}
+
+.pricing-table a:hover {
+    color: var(--primary-accent);
+    border-bottom-color: var(--primary-accent);
+    border-bottom-style: solid;
+}
+
+/* Links in sidebar boxes */
+.sidebar-box p a {
+    color: var(--secondary-accent);
+    font-weight: 500;
+}
+
+.sidebar-box p a:hover {
+    color: var(--primary-accent);
+}
+
 ul, ol {
     list-style: none;
 }
