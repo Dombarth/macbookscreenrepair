@@ -902,6 +902,26 @@ textarea.form-control {
     color: var(--text-white);
 }
 
+/* Footer Policy Links - Proper spacing for accessibility (Google guidelines: 44px touch targets) */
+.footer-bottom > div {
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+.footer-bottom > div a {
+    padding: 8px 16px;
+    display: inline-block;
+    min-height: 44px;
+    line-height: 28px;
+}
+
+.footer-bottom > div a:not(:last-child)::after {
+    content: "|";
+    margin-left: 16px;
+    color: rgba(255,255,255,0.3);
+}
+
 /* ===== Two Column Layout ===== */
 .two-col {
     display: grid;
