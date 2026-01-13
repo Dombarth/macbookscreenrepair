@@ -1,11 +1,39 @@
-﻿<!DOCTYPE html>
+const fs = require('fs');
+const path = require('path');
+
+// Get all area directories
+const areasDir = path.join(__dirname, 'areas');
+const areaDirs = fs.readdirSync(areasDir).filter(item => {
+    const itemPath = path.join(areasDir, item);
+    return fs.statSync(itemPath).isDirectory();
+});
+
+// Function to convert folder name to display name
+function folderToDisplayName(folder) {
+    return folder
+        .split('-')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(' ');
+}
+
+// Generic content template with only 2 suburb mentions in body
+function generateAreaPage(suburbName, folderName) {
+    // Find nearby suburbs for links (we'll use generic ones)
+    const nearbySuburbs = [
+        { name: 'Parramatta', slug: 'parramatta' },
+        { name: 'Castle Hill', slug: 'castle-hill' },
+        { name: 'Blacktown', slug: 'blacktown' },
+        { name: 'Penrith', slug: 'penrith' }
+    ].filter(s => s.slug !== folderName).slice(0, 4);
+
+    return `<!DOCTYPE html>
 <html lang="en-AU">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MacBook Screen Repair Beaumont Hills | LCD & Display Replacement</title>
-    <meta name="description" content="MacBook screen repair for Beaumont Hills residents. LCD only and full display replacement. Drop off service at our Western Sydney workshop.">
-    <link rel="canonical" href="https://macbookscreenrepairsydney.com.au/areas/beaumont-hills/">
+    <title>MacBook Screen Repair ${suburbName} | LCD & Display Replacement</title>
+    <meta name="description" content="MacBook screen repair for ${suburbName} residents. LCD only and full display replacement. Drop off service at our Western Sydney workshop.">
+    <link rel="canonical" href="https://macbookscreenrepairsydney.com.au/areas/${folderName}/">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -16,15 +44,15 @@
     {
         "@context": "https://schema.org",
         "@type": "Service",
-        "name": "MacBook Screen Repair Beaumont Hills",
-        "description": "MacBook LCD panel replacement and full display replacement for Beaumont Hills residents.",
+        "name": "MacBook Screen Repair ${suburbName}",
+        "description": "MacBook LCD panel replacement and full display replacement for ${suburbName} residents.",
         "provider": {
             "@type": "LocalBusiness",
             "name": "MacBook Screen Repair Sydney"
         },
         "areaServed": {
             "@type": "City",
-            "name": "Beaumont Hills"
+            "name": "${suburbName}"
         }
     }
     </script>
@@ -82,7 +110,7 @@
     <!-- Page Hero -->
     <section class="page-hero">
         <div class="container">
-            <h1>MacBook Screen Repair Beaumont Hills</h1>
+            <h1>MacBook Screen Repair ${suburbName}</h1>
             <p>LCD only and full display replacement for residents in this area</p>
         </div>
     </section>
@@ -94,7 +122,7 @@
             <span>/</span>
             <a href="/areas/">Areas</a>
             <span>/</span>
-            Beaumont Hills
+            ${suburbName}
         </div>
     </div>
 
@@ -104,7 +132,7 @@
             <div class="two-col-content">
                 <div class="content-block">
                     <h2>MacBook Screen Repair Service</h2>
-                    <p>We service MacBook owners from Beaumont Hills and the surrounding area at our repair workshop. The team provide <a href="/services/lcd-only-macbook-screen-repair/">LCD only replacement</a> and <a href="/services/full-display-macbook-screen-replacement/">full display assembly replacement</a> for <a href="/models/">MacBook Air and MacBook Pro models</a>. All repairs are drop off only with proper assessment before any work starts.</p>
+                    <p>We service MacBook owners from ${suburbName} and the surrounding area at our repair workshop. The team provide <a href="/services/lcd-only-macbook-screen-repair/">LCD only replacement</a> and <a href="/services/full-display-macbook-screen-replacement/">full display assembly replacement</a> for <a href="/models/">MacBook Air and MacBook Pro models</a>. All repairs are drop off only with proper assessment before any work starts.</p>
                     
                     <p>Our workshop is conveniently located in Western Sydney, making it accessible for MacBook owners across the region. Whether you have a cracked screen, dead display, flickering panel or lines running through the image, we can assess the damage and explain your repair options.</p>
 
@@ -157,10 +185,7 @@
                     <div class="sidebar-box">
                         <h5>Other Areas</h5>
                         <div class="sidebar-links">
-                            <a href="/areas/parramatta/">Parramatta</a>
-                            <a href="/areas/castle-hill/">Castle Hill</a>
-                            <a href="/areas/blacktown/">Blacktown</a>
-                            <a href="/areas/penrith/">Penrith</a>
+                            ${nearbySuburbs.map(s => `<a href="/areas/${s.slug}/">${s.name}</a>`).join('\n                            ')}
                             <a href="/areas/">All Areas</a>
                         </div>
                     </div>
@@ -283,4 +308,22 @@
 
     <script src="/js/main.js"></script>
 </body>
-</html>
+</html>`;
+}
+
+// Process each area
+let processed = 0;
+areaDirs.forEach(folder => {
+    const suburbName = folderToDisplayName(folder);
+    const filePath = path.join(areasDir, folder, 'index.html');
+    
+    if (fs.existsSync(filePath)) {
+        const newContent = generateAreaPage(suburbName, folder);
+        fs.writeFileSync(filePath, newContent, 'utf8');
+        processed++;
+        console.log(`Updated: ${folder} (${suburbName})`);
+    }
+});
+
+console.log(`\nDone! Updated ${processed} area pages.`);
+console.log('Each page now has exactly 2 suburb mentions in the body content.');

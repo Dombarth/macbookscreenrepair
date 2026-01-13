@@ -1,11 +1,32 @@
-﻿<!DOCTYPE html>
+# Update all area pages to have only 2 suburb mentions in body content
+
+$areasDir = Join-Path $PSScriptRoot "areas"
+$areaDirs = Get-ChildItem -Path $areasDir -Directory
+
+function ConvertTo-DisplayName {
+    param([string]$folder)
+    $words = $folder -split '-'
+    $displayName = ($words | ForEach-Object { 
+        $_.Substring(0,1).ToUpper() + $_.Substring(1) 
+    }) -join ' '
+    return $displayName
+}
+
+function Get-AreaPageContent {
+    param(
+        [string]$suburbName,
+        [string]$folderName
+    )
+    
+    $content = @"
+<!DOCTYPE html>
 <html lang="en-AU">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MacBook Screen Repair Beaumont Hills | LCD & Display Replacement</title>
-    <meta name="description" content="MacBook screen repair for Beaumont Hills residents. LCD only and full display replacement. Drop off service at our Western Sydney workshop.">
-    <link rel="canonical" href="https://macbookscreenrepairsydney.com.au/areas/beaumont-hills/">
+    <title>MacBook Screen Repair $suburbName | LCD & Display Replacement</title>
+    <meta name="description" content="MacBook screen repair for $suburbName residents. LCD only and full display replacement. Drop off service at our Western Sydney workshop.">
+    <link rel="canonical" href="https://macbookscreenrepairsydney.com.au/areas/$folderName/">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -16,15 +37,15 @@
     {
         "@context": "https://schema.org",
         "@type": "Service",
-        "name": "MacBook Screen Repair Beaumont Hills",
-        "description": "MacBook LCD panel replacement and full display replacement for Beaumont Hills residents.",
+        "name": "MacBook Screen Repair $suburbName",
+        "description": "MacBook LCD panel replacement and full display replacement for $suburbName residents.",
         "provider": {
             "@type": "LocalBusiness",
             "name": "MacBook Screen Repair Sydney"
         },
         "areaServed": {
             "@type": "City",
-            "name": "Beaumont Hills"
+            "name": "$suburbName"
         }
     }
     </script>
@@ -82,7 +103,7 @@
     <!-- Page Hero -->
     <section class="page-hero">
         <div class="container">
-            <h1>MacBook Screen Repair Beaumont Hills</h1>
+            <h1>MacBook Screen Repair $suburbName</h1>
             <p>LCD only and full display replacement for residents in this area</p>
         </div>
     </section>
@@ -94,7 +115,7 @@
             <span>/</span>
             <a href="/areas/">Areas</a>
             <span>/</span>
-            Beaumont Hills
+            $suburbName
         </div>
     </div>
 
@@ -104,7 +125,7 @@
             <div class="two-col-content">
                 <div class="content-block">
                     <h2>MacBook Screen Repair Service</h2>
-                    <p>We service MacBook owners from Beaumont Hills and the surrounding area at our repair workshop. The team provide <a href="/services/lcd-only-macbook-screen-repair/">LCD only replacement</a> and <a href="/services/full-display-macbook-screen-replacement/">full display assembly replacement</a> for <a href="/models/">MacBook Air and MacBook Pro models</a>. All repairs are drop off only with proper assessment before any work starts.</p>
+                    <p>We service MacBook owners from $suburbName and the surrounding area at our repair workshop. The team provide <a href="/services/lcd-only-macbook-screen-repair/">LCD only replacement</a> and <a href="/services/full-display-macbook-screen-replacement/">full display assembly replacement</a> for <a href="/models/">MacBook Air and MacBook Pro models</a>. All repairs are drop off only with proper assessment before any work starts.</p>
                     
                     <p>Our workshop is conveniently located in Western Sydney, making it accessible for MacBook owners across the region. Whether you have a cracked screen, dead display, flickering panel or lines running through the image, we can assess the damage and explain your repair options.</p>
 
@@ -284,3 +305,24 @@
     <script src="/js/main.js"></script>
 </body>
 </html>
+"@
+    return $content
+}
+
+$processed = 0
+foreach ($dir in $areaDirs) {
+    $folderName = $dir.Name
+    $suburbName = ConvertTo-DisplayName -folder $folderName
+    $filePath = Join-Path $dir.FullName "index.html"
+    
+    if (Test-Path $filePath) {
+        $content = Get-AreaPageContent -suburbName $suburbName -folderName $folderName
+        Set-Content -Path $filePath -Value $content -Encoding UTF8
+        $processed++
+        Write-Host "Updated: $folderName ($suburbName)"
+    }
+}
+
+Write-Host ""
+Write-Host "Done! Updated $processed area pages."
+Write-Host "Each page now has exactly 2 suburb mentions in the body content."
