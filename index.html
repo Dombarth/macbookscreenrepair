@@ -6,11 +6,27 @@
     <title>MacBook Screen Repair Sydney | Fast LCD & Display Replacement</title>
     <meta name="description" content="MacBook screen repair workshop near Castle Hill serving Western Sydney and The Hills District. Visit our shop for LCD only and full display replacement. Drop off service.">
     <link rel="canonical" href="https://macbookscreenrepairsydney.com.au/">
+    
+    <!-- Preconnect to external resources -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    
+    <!-- Critical CSS inlined for above-the-fold content -->
+    <style>
+        :root{--primary-blue:#1a1a2e;--primary-accent:#0f4c75;--secondary-accent:#3282b8;--text-dark:#1a1a2e;--text-gray:#5a5a6e;--text-white:#fff;--bg-light:#f8f9fa;--bg-white:#fff;--bg-dark:#1a1a2e;--border-light:#e0e0e0;--font-heading:'DM Sans',sans-serif;--font-body:'Inter Tight',sans-serif}*,::after,::before{box-sizing:border-box;margin:0;padding:0}body{font-family:var(--font-body);font-size:16px;line-height:1.7;color:var(--text-gray);background-color:var(--bg-white)}.header{position:sticky;top:0;z-index:1000;background:var(--bg-white);border-bottom:1px solid var(--border-light);display:flex;align-items:center;padding:.25rem 1.5rem}.header-inner{display:flex;align-items:center;justify-content:space-between;width:100%;max-width:1400px;margin:0 auto;gap:1rem}.logo{display:flex;align-items:center;flex-shrink:0}.logo img{height:160px;width:auto;max-width:800px}.nav-menu{display:flex;align-items:center;gap:24px}.hero{background:linear-gradient(135deg,var(--primary-blue) 0%,var(--primary-accent) 100%);padding:5rem 1.5rem;min-height:500px;display:flex;align-items:center}.hero-content{max-width:680px}.hero h1{font-size:48px;font-weight:700;color:var(--text-white);line-height:1.2;margin-bottom:1rem;font-family:var(--font-heading)}.container{width:100%;max-width:1140px;margin:0 auto;padding:0 1.5rem}.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 28px;font-family:var(--font-heading);font-size:16px;font-weight:600;border-radius:6px;border:none;cursor:pointer;transition:all .3s ease;text-decoration:none}.btn-white{background:var(--text-white);color:var(--primary-accent)}.btn-call{background:#16A34A;color:#fff}@media(max-width:768px){.nav-menu{display:none}.hero h1{font-size:32px}.logo img{height:120px}}
+    </style>
+    
+    <!-- Main CSS - deferred loading -->
     <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Google Fonts with display=swap (already present in URL) - load async -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter+Tight:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter+Tight:wght@400;500;600;700&display=swap"></noscript>
+    
+    <!-- Font Awesome - defer loading (non-critical) -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
     
     <!-- Schema Markup -->
     <script type="application/ld+json">
@@ -85,7 +101,7 @@
     <header class="header">
         <div class="header-inner">
             <a href="/" class="logo">
-                <img src="images/logo.jpeg" alt="MacBook Screen Repair" width="200" height="45">
+                <img src="images/logo.jpeg" alt="MacBook Screen Repair Sydney" width="200" height="45" fetchpriority="high" decoding="async">
             </a>
             <nav class="nav-menu">
                 <a href="/">Home</a>
@@ -428,7 +444,7 @@
             <div class="footer-grid">
                 <div class="footer-brand">
                     <a href="/" class="logo">
-                        <img src="images/logo.jpeg" alt="MacBook Screen Repair" width="180" height="40">
+                        <img src="images/logo.jpeg" alt="MacBook Screen Repair Sydney" width="180" height="40">
                     </a>
                     <p>MacBook screen repair workshop near Castle Hill serving Western Sydney and The Hills District. Visit our shop for LCD only and full display replacement. Drop off service at our workshop.</p>
                     <p style="margin-top: 1rem;"><a href="tel:0400454859" style="color: rgba(255,255,255,0.8); font-size: 16px;"><i class="fas fa-phone" style="margin-right: 8px;"></i>0400 454 859</a></p>
