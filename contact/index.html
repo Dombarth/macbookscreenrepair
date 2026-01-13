@@ -84,7 +84,16 @@
                     <h2>Contact Our Workshop</h2>
                     <p>Have a question about MacBook screen repairs? Fill out the form and our workshop team will get back to you. For booking an assessment at our shop use the booking form instead.</p>
                     
-                    <form action="#" method="POST" class="mt-3">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="mt-3" id="contact-form">
+                        <!-- Web3Forms Access Key -->
+                        <input type="hidden" name="access_key" value="b29aaef9-0f0f-4782-8e48-d436341019d1">
+                        <!-- Subject for email notification -->
+                        <input type="hidden" name="subject" value="New Contact Form Submission - MacBook Screen Repair Sydney">
+                        <!-- Redirect after submission -->
+                        <input type="hidden" name="redirect" value="https://macbookscreenrepairsydney.com.au/contact/thank-you/">
+                        <!-- Honeypot Spam Protection -->
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                        
                         <div class="form-row">
                             <div class="form-group">
                                 <label class="form-label">Name *</label>
@@ -100,8 +109,8 @@
                             <input type="tel" name="phone" class="form-control">
                         </div>
                         <div class="form-group">
-                            <label class="form-label">Subject</label>
-                            <select name="subject" class="form-control">
+                            <label class="form-label">Enquiry Type</label>
+                            <select name="enquiry_type" class="form-control">
                                 <option value="General Enquiry">General Enquiry</option>
                                 <option value="Pricing Question">Pricing Question</option>
                                 <option value="Repair Question">Repair Question</option>
@@ -114,6 +123,7 @@
                             <textarea name="message" class="form-control" rows="5" required placeholder="How can we help?"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Send Message</button>
+                        <p id="contact-result" class="mt-2" style="display: none;"></p>
                     </form>
                 </div>
                 
