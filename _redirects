@@ -1,0 +1,82 @@
+# macbookscreenrepairsydney.com.au -> maccomputernsw.com.au, 301s for the merge (Netlify _redirects, first match wins)
+# Screens: the sister site's whole reason for being, straight to the main site's screen page
+/  https://maccomputernsw.com.au/macbook-m1-m2-m3-screen-repair-sydney/  301!
+/models/*  https://maccomputernsw.com.au/macbook-m1-m2-m3-screen-repair-sydney/  301!
+/services/*  https://maccomputernsw.com.au/macbook-m1-m2-m3-screen-repair-sydney/  301!
+/pricing-guide/  https://maccomputernsw.com.au/repair-cost/  301!
+/about/  https://maccomputernsw.com.au/about-us/  301!
+/contact/  https://maccomputernsw.com.au/contact-us/  301!
+/book/  https://maccomputernsw.com.au/contact-us/  301!
+/warranty/  https://maccomputernsw.com.au/contact-us/  301!
+# Suburb pages the main site kept
+/areas/baulkham-hills/  https://maccomputernsw.com.au/baulkhamhills/  301!
+/areas/bella-vista/  https://maccomputernsw.com.au/bellavista/  301!
+/areas/blacktown/  https://maccomputernsw.com.au/blacktown/  301!
+/areas/castle-hill/  https://maccomputernsw.com.au/castlehill/  301!
+/areas/dural/  https://maccomputernsw.com.au/dural/  301!
+/areas/kellyville/  https://maccomputernsw.com.au/kellyville/  301!
+/areas/parramatta/  https://maccomputernsw.com.au/parramatta/  301!
+/areas/rouse-hill/  https://maccomputernsw.com.au/rousehill/  301!
+# Hills and north west suburbs -> Hills District hub
+/areas/annangrove/  https://maccomputernsw.com.au/hills-district/  301!
+/areas/beaumont-hills/  https://maccomputernsw.com.au/hills-district/  301!
+/areas/box-hill/  https://maccomputernsw.com.au/hills-district/  301!
+/areas/cherrybrook/  https://maccomputernsw.com.au/hills-district/  301!
+/areas/glenhaven/  https://maccomputernsw.com.au/hills-district/  301!
+/areas/glenwood/  https://maccomputernsw.com.au/hills-district/  301!
+/areas/kellyville-ridge/  https://maccomputernsw.com.au/hills-district/  301!
+/areas/kenthurst/  https://maccomputernsw.com.au/hills-district/  301!
+/areas/norwest/  https://maccomputernsw.com.au/hills-district/  301!
+/areas/stanhope-gardens/  https://maccomputernsw.com.au/hills-district/  301!
+/areas/the-ponds/  https://maccomputernsw.com.au/hills-district/  301!
+/areas/beecroft/  https://maccomputernsw.com.au/hills-district/  301!
+/areas/pennant-hills/  https://maccomputernsw.com.au/hills-district/  301!
+/areas/thornleigh/  https://maccomputernsw.com.au/hills-district/  301!
+/areas/carlingford/  https://maccomputernsw.com.au/hills-district/  301!
+/areas/north-rocks/  https://maccomputernsw.com.au/hills-district/  301!
+/areas/epping/  https://maccomputernsw.com.au/hills-district/  301!
+# Western and south western suburbs -> Western Sydney hub
+/areas/auburn/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/bankstown/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/doonside/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/dundas/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/eastwood/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/ermington/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/fairfield/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/granville/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/greystanes/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/guildford/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/harris-park/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/homebush/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/kings-langley/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/lalor-park/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/lidcombe/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/liverpool/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/marsden-park/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/merrylands/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/mount-druitt/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/northmead/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/north-parramatta/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/penrith/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/prospect/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/quakers-hill/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/richmond/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/riverstone/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/rooty-hill/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/schofields/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/seven-hills/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/st-marys/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/strathfield/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/toongabbie/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/vineyard/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/wentworthville/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/westmead/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/windsor/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/winston-hills/  https://maccomputernsw.com.au/western-sydney/  301!
+/areas/  https://maccomputernsw.com.au/  301!
+/areas/*  https://maccomputernsw.com.au/western-sydney/  301!
+# Search Console verification file must keep answering 200 for the property and the change of address
+/googlea88cf690eed4efa8.html  /googlea88cf690eed4efa8.html  200
+/privacy/  https://maccomputernsw.com.au/privacy-policy/  301!
+# Everything else (feeds, old assets, typos)
+/*  https://maccomputernsw.com.au/  301!
